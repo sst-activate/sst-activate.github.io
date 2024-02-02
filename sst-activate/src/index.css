@@ -29,7 +29,7 @@
   border-radius: 1vw;
   font-size: 2vw;
   width: 1fr;
-  padding: 0.5vw;
+  padding: 1vw;
   margin: 1vw;
   text-align: center;
 }
@@ -37,6 +37,19 @@
 .topNavButtons:hover{
   background-color: var(--red);
   transition: 500ms ease-in-out;
+  padding: 1.5vw;
+}
+
+h1{
+  font-size: 20vw;
+  color: var(--red);
+  font-weight: 700;
+  text-align: justify;
+}
+
+#introPara{
+  margin-top: 10vw;
+  font-size: 2vw;
 }
 
 #aceLogo{
@@ -51,6 +64,10 @@
   }
   .topNavButtons{
     padding: 2vw;
+    font-size: 4vw;
+  }
+
+  #introPara{
     font-size: 4vw;
   }
 }
