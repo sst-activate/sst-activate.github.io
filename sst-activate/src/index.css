@@ -34,21 +34,40 @@
   text-align: center;
 }
 
+.topNavButtons-active{
+  background-color: var(--payneGray);
+  border-radius: 1vw;
+  font-size: 2vw;
+  width: 1fr;
+  margin: 1vw;
+  text-align: center;
+  background-color: var(--red);
+  transition: 500ms ease-in-out;
+  padding: 1vw;
+}
+
 .topNavButtons:hover{
   background-color: var(--red);
   transition: 500ms ease-in-out;
   padding: 1.5vw;
 }
 
-h1{
-  font-size: 20vw;
+.wordHovering{
+  font-size: 19vw;
   color: var(--red);
   font-weight: 700;
-  text-align: justify;
+  text-align: center;
+}
+
+.wordHovering:hover{
+  font-size: 20vw;
+  color: var(--honoluluBlue);
+  transition: 500ms ease-in-out;
 }
 
 #introPara{
-  margin-top: 10vw;
+  text-align: center;
+  margin-top: 5vw;
   font-size: 2vw;
 }
 
@@ -65,6 +84,10 @@ h1{
   .topNavButtons{
     padding: 2vw;
     font-size: 4vw;
+  }
+
+  .topNavButtons-active{
+    color: var(--red);
   }
 
   #introPara{
