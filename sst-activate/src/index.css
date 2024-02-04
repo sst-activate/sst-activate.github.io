@@ -25,6 +25,8 @@
 }
 
 .topNavButtons{
+  text-decoration: none;
+  color: var(--platinum);
   background-color: var(--payneGray);
   border-radius: 1vw;
   font-size: 2vw;
@@ -35,7 +37,8 @@
 }
 
 .topNavButtons-active{
-  background-color: var(--payneGray);
+  text-decoration: none;
+  color: var(--platinum);
   border-radius: 1vw;
   font-size: 2vw;
   width: 1fr;
@@ -47,6 +50,7 @@
 }
 
 .topNavButtons:hover{
+  text-decoration: none;
   background-color: var(--red);
   transition: 500ms ease-in-out;
   padding: 1.5vw;
@@ -86,11 +90,18 @@
     font-size: 4vw;
   }
 
+  .topNav{
+    padding: 1vw;
+  }
+
   .topNavButtons-active{
-    color: var(--red);
+    padding: 2vw;
+    font-size: 4vw;
+    background-color: var(--red);
   }
 
   #introPara{
+    margin-top: 15vw;
     font-size: 4vw;
   }
 }

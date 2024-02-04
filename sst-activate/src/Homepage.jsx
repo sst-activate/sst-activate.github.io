@@ -6,9 +6,10 @@ function Homepage(){
         <>
             <div className="topNav">
                 <img src={ACELOGO} id="aceLogo"></img>
-                <div className='topNavButtons-active'>Home</div>
-                <div className='topNavButtons'>Organisations</div>
-                <div className='topNavButtons'>Past Projects</div>
+                <a className='topNavButtons-active' href="#/">Home</a>
+                <a className='topNavButtons' href="#/archive">Archive</a>
+                <a className='topNavButtons' href="#/articles">Articles</a>
+                <a className='topNavButtons' href="#/activate">ACTIVATE!</a>
             </div>
             <div id='introPara'>
             <h1><span className='wordHovering'>H</span>
