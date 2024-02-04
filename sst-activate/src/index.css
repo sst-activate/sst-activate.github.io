@@ -3,13 +3,14 @@
   line-height: 1.5;
   font-weight: 400;
 
-  --champagnePink : #E5D4CE;
-  --platinum: #E0E0E0;
-  --honoluluBlue: #007EC9;
-  --payneGray: #606A72;
-  --red: #F1162C;
+  --champagnePink : hsl(16, 31%, 85%);
+  --platinum: hsl(0, 0%, 88%);
+  --honoluluBlue: hsl(202, 100%, 39%);
+  --payneGray: hsl(207, 9%, 41%);
+  --lightPayneGray: hsl(208, 9%, 60%);
+  --red: hsl(354, 89%, 52%);
 
-  background-color: var(--champagnePink);
+  background-color: var(--lightPayneGray);
 }
 
 .topNav{
@@ -58,14 +59,14 @@
 
 .wordHovering{
   font-size: 19vw;
-  color: var(--red);
+  color: var(--honoluluBlue);
   font-weight: 700;
   text-align: center;
 }
 
 .wordHovering:hover{
   font-size: 20vw;
-  color: var(--honoluluBlue);
+  color: var(--red);
   transition: 500ms ease-in-out;
 }
 
