@@ -58,7 +58,6 @@ p {
   background-color: var(--celadon);
   padding-top: 2%;
   padding-bottom: 2%;
-  margin-bottom: 5%;
   justify-content: auto;
   flex-direction: row;
 }
@@ -66,20 +65,31 @@ p {
 h2 {
   font-size: 5vw;
   text-align: center;
+  color: var(--payneGray);
+}
+
+h2:hover {
+  font-size: 6vw;
+  transition: 1000ms ease-in-out;
+  color: var(--red);
 }
 
 h3 {
   font-size: 3vw;
   text-align: center;
-  color: var(--carribeanCurrent);
-  background-color: var(--sunset);
+  color: var(--champagnePink);
+  background-color: var(--honoluluBlue);
   border-radius: 100px;
+  padding: 1vw;
+  margin-right: 1vw;
+  margin-left: 1vw;
 }
 
 .pictureDisplay {
   flex: 2;
   max-width: 50vw;
   max-height: 50vw;
+  border-radius: 50px;
 }
 
 .videoDisplay {
