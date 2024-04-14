@@ -9,13 +9,38 @@
   --payneGray: hsl(207, 9%, 41%);
   --lightPayneGray: hsl(208, 9%, 60%);
   --red: hsl(354, 89%, 52%);
+  --lightRed: hsl(354, 89%, 45%);
 
-  background-color: var(--lightPayneGray);
+  /* background-color: var(--lightPayneGray); */
+  background-image: url("https://picsum.photos/1920/1080?grayscale&blur=1");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+footer {
+  margin-top: 2vw;
+  color: var(--platinum);
+  background-color: var(--payneGray);
+  font-size: 2vw;
+  bottom: 0;
+  left: 0;
+  padding: 1vw;
+}
+
+.firstP {
+  font-size: 2vw;
+  background-color: var(--payneGray);
+  color: var(--platinum);
+  border-radius: 20px;
+  padding: 10px;
 }
 
 p {
   font-size: 2vw;
   color: var(--platinum);
+  border-radius: 20px;
+  padding: 10px;
 }
 
 .pictureGroup {
@@ -29,12 +54,13 @@ p {
   max-width: 20vw;
   max-height: 20vw;
   transition: 1s ease-in-out;
+  border-radius: 20px;
 }
 
 .secondPic:hover {
   flex: 2;
-  max-width: 30vw;
-  max-height: 30vw;
+  max-width: 25vw;
+  max-height: 25vw;
   transition: 1s ease-in-out;
 }
 
@@ -43,6 +69,7 @@ p {
   max-width: 10vw;
   max-height: 10vw;
   transition: 1s ease-in-out;
+  border-radius: 20px;
 }
 
 .thirdPic:hover {
@@ -62,10 +89,15 @@ p {
   flex-direction: row;
 }
 
+h1 {
+  font-family: "Caveat";
+  text-align: center;
+}
+
 h2 {
   font-size: 5vw;
   text-align: center;
-  color: var(--payneGray);
+  color: var(--lightRed);
 }
 
 h2:hover {
@@ -83,6 +115,12 @@ h3 {
   padding: 1vw;
   margin-right: 1vw;
   margin-left: 1vw;
+}
+
+h4 {
+  font-size: 4vw;
+  text-align: center;
+  color: var(--red);
 }
 
 .pictureDisplay {
@@ -162,14 +200,14 @@ hr {
 }
 
 .wordHovering {
-  font-size: 17vw;
-  color: var(--honoluluBlue);
+  font-size: 19vw;
+  color: var(--lightRed);
   font-weight: 700;
   text-align: center;
 }
 
 .wordHovering:hover {
-  font-size: 19vw;
+  font-size: 20vw;
   color: var(--red);
   transition: 500ms ease-in-out;
 }
