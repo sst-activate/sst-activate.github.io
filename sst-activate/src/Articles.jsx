@@ -26,7 +26,7 @@ function Articles() {
                         </div>
                     </div>
                     <p style={{ fontSize: "2.5vw", textAlign: "justify", padding: "3vw" }}>
-                        Kenneth Koh was the Chaiperson of the Active Citizenship Board in 2022.
+                        Kenneth Koh was the First Chaiperson of the Active Citizenship Board.
                         Despite being the inaugaral batch of Executive committee, he was
                         able to set the standards of Leadership for the board for years to come,
                         establishing connections in projects such as ACE Food Drive, and Python
